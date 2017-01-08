@@ -1,0 +1,274 @@
+.navi {
+    margin: 15px;
+}
+
+container {
+    text-align: center;
+    margin: auto;
+    max-width: 1200px;
+    margin-bottom: 20px;
+    outline: 1px solid brown;
+    background-repeat: no-repeat;
+
+}
+
+.navi-banner {
+    float: right;
+}
+
+.banner {
+    color: white;
+    background-image: url("index-00.jpg");
+    background-size: cover;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.programs {
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    height: 30px;
+    width: 60%;
+    text-align: left;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color: red;
+}
+
+.active {
+    color: red;
+}
+
+h1 {
+    color: white;
+    font-size: 2em;
+}
+
+h2 {
+    color: white;
+}
+
+.item {
+    margin: 10px;
+    float: left;
+}
+
+.item-col4-pix {
+    width: 220px;
+    height: 600px;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 200px;
+    margin: 0;
+
+}
+
+.go-banner {
+    padding: 300px 100px;
+
+}
+
+.button {
+    /*background-color: #ff9797;*/
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cusor: pointer;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 25px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button1 {
+    background-color: #ff6479;
+    color: #fff;
+
+}
+
+.button1:hover {
+    background-color: #ff3f64;
+}
+
+.button2 {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.button2:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.item-col3 {
+    width: 300px;
+}
+
+.clear {
+    clear: both;
+}
+
+.numbers {
+    background-color: #111111;
+    text-align: center;
+    padding: 50px 0;
+
+}
+
+h4.facility {
+    width: 50%;
+    /*text-align: center;*/
+    font-size: xx-small;
+    color: #6b7386;
+    padding-left: 25%;
+}
+
+hr.hr {
+    border-bottom: 1px solid red;
+    width: 30%;
+}
+
+.numbers h2 {
+    color: #6b7386;
+}
+
+.picture img {
+    width: 300px;
+}
+
+.picture {
+    margin-top: 200px;
+    background-image: url(index-10.jpg);
+    width: 1200px;
+    height: 200px;
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+.coaches {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.coach-text h2 {
+    color: black;
+}
+
+.coach-text {
+    text-align: center;
+}
+
+.coaches .item-col4-coache {
+    margin: 5px;
+    float: left;
+    width: 200px;
+
+}
+
+.coaches .item-col4-coache img {
+    width: 100%;
+    height: auto;
+}
+
+.coaches .item-col4-coache:hover {
+    background-color: rgba(100, 0, 100, 0.25);
+}
+
+.item-col4-coache {
+    padding: 15px;
+    text-align: center;
+
+}
+
+/*.item-col3 {*/
+/*-webkit-column-count: 3; !* Chrome, Safari, Opera *!*/
+/*-moz-column-count: 3; !* Firefox *!*/
+/*column-count: 3;*/
+/*-webkit-column-gap: 40px; !* Chrome, Safari, Opera *!*/
+/*-moz-column-gap: 40px; !* Firefox *!*/
+/*column-gap: 40px;*/
+/*-webkit-column-rule-style: solid; !* Chrome, Safari, Opera *!*/
+/*-moz-column-rule-style: solid; !* Firefox *!*/
+/*column-rule-style: solid;*/
+/*-webkit-column-rule-width: 1px; !* Chrome, Safari, Opera *!*/
+/*-moz-column-rule-width: 1px; !* Firefox *!*/
+/*column-rule-width: 1px;*/
+
+/*}*/
+
+.people {
+    background-color: #f4f4f4;
+    text-align: center;
+    float: left;
+    color: #111111;
+    display: flex;
+    justify-content: center;
+
+}
+
+.item-col3 img {
+    border-radius: 100%;
+    float: left;
+    margin-left: 15px;
+}
+
+.item-col3 {
+    padding: 20px;
+    width: 20%;
+    float: left;
+    font-size: 5px;
+    border: 2px solid #e1e0e0;
+    margin: 50px;
+
+}
+
+.item-col3 .name {
+    line-height: 0.1em;
+}
+
+.footer {
+    float: left;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+}
+
+.item-col4 {
+    width: 220px;
+    height: 400px;
+}
